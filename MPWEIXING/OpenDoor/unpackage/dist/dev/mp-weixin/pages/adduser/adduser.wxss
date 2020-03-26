@@ -1,0 +1,134 @@
+
+page {
+	background: #f0f0f0;
+}
+.content {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	margin-bottom: 50rpx;
+}
+.list {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	width: 680rpx;
+	margin: auto;
+	margin-top: 20rpx;
+	background: #ffffff;
+	border-radius: 20rpx;
+	padding-bottom: 20rpx;
+}
+.list-title {
+	width: 580rpx;
+	padding: 20rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	font-size: 40rpx;
+	font-weight: bold;
+	border-bottom: #f0f0f0 1rpx solid;
+	margin: auto;
+	margin-bottom: 20rpx;
+}
+.list-item {
+	width: 580rpx;
+	padding: 20rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	margin: auto;
+	font-size: 30rpx;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.list-item > text {
+	white-space: nowrap;
+}
+.list-item input {
+	background: #f0f0f0;
+	border-radius: 10rpx;
+	padding-left: 20rpx;
+	padding-right: 20rpx;
+	width: 300rpx;
+	height: 60rpx;
+	color: #999999;
+	font-size: 30rpx;
+}
+.list-item slider {
+	width: 300rpx;
+}
+.list-item picker {
+	margin-right: 10px;
+}
+.list-item picker button {
+	vertical-align: middle;
+}
+.list-item label {
+	display: inline-block;
+	margin: 5px 0px;
+}
+.list-item label text {
+	margin-right: 10px;
+}
+.list-item textarea {
+	border-radius: 5px;
+	background-color: #f8f8f8;
+	padding: 10px;
+}
+.xiala {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	background: #f0f0f0;
+	padding: 10rpx;
+	border-radius: 10rpx;
+	color: #999999;
+	font-size: 30rpx;
+}
+.xiala image {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	padding-top: 5rpx;
+	width: 30rpx;
+	height: 30rpx;
+	margin-left: 10rpx;
+}
+.divider {
+	content: '';
+	width: 580rpx;
+	margin: 5px auto;
+	height: 1px;
+	background-color: #dddddd;
+}
+.color-red {
+	color: #ff3333;
+}
+
+/* uid获取按钮*/
+.UIDbutton{
+	height: 65rpx;
+	/* width: 100upx; */
+	margin: 0 0;
+	padding: 0 0;
+	font-size: 10rpx;
+}
+.uidgetTXT{
+}
+

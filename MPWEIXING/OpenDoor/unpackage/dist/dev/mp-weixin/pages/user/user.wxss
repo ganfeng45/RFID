@@ -1,0 +1,271 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 大的背景 */
+.content {
+	width: 95%;
+	margin: 1rpx auto;
+}
+.userinfo{
+	/* border-style: inset; */
+	border-width: 5rpx;
+	border-radius:20rpx;
+	border: #000000 solid 1rpx;
+	padding: 10rpx 20rpx;
+	margin: 10rpx auto;
+	margin-top: 20rpx;
+	background-color: #e2e2e2;
+}
+.username{
+	border: #000000;
+}
+.username,.userphone{
+	border-bottom: #000000 solid 1rpx;
+}
+.username label,.userphone label,.usernote label{
+	color: #616161;
+	font-weight: bold;
+} 
+	/* 添加按钮 */
+.add_user image{
+	width: 70rpx;
+	height: 70rpx;
+	display: block;
+	position:fixed;
+	right:30rpx;
+	bottom:70rpx;
+	border-radius: 5rpx;
+}
+ 
+

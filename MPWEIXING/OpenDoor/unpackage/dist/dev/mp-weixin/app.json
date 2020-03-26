@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/user/user",
+    "pages/userdatial/userdatial",
+    "pages/adduser/adduser",
+    "pages/test/test",
+    "pages/my/my",
+    "pages/login/login"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#808080",
+    "selectedColor": "#3F536E",
+    "list": [
+      {
+        "text": "出入管理",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "text": "人员管理",
+        "pagePath": "pages/user/user"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/my/my"
+      }
+    ]
+  },
+  "usingComponents": {
+    "mescroll-body": "/components/mescroll-uni/mescroll-body",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni"
+  },
+  "sitemapLocation": "sitemap27.json"
+}

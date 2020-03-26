@@ -1,0 +1,70 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		}
+	    ,{
+            "path" : "pages/user/user",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/userdatial/userdatial",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/adduser/adduser",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/test/test",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/my/my",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/login/login",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"color":"#808080",
+		"selectedColor":"#3F536E",
+		"list":[
+			{
+				"text":"出入管理",
+				"pagePath":"pages/index/index"
+				// "iconPath":"static/nav1.png",
+				// "selectedIconPath":"static/nav1-a.png"
+			},
+			// {
+			// 	"text":"写作",
+			// 	"pagePath":"pages/write/write",
+			// 	"iconPath":"static/nav2.png",
+			// 	"selectedIconPath":"static/nav2-a.png"
+			// },
+			{
+				"text":"人员管理",
+				"pagePath":"pages/user/user"
+				// "iconPath":"static/nav3.png",
+				// "selectedIconPath":"static/nav3-a.png"
+			},
+			{
+				"text":"我的",
+				"pagePath":"pages/my/my"
+				// "iconPath":"static/nav3.png",
+				// "selectedIconPath":"static/nav3-a.png"
+			}
+		]
+	}
+}

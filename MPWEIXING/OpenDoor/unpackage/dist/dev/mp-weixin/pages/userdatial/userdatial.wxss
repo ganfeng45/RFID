@@ -1,0 +1,50 @@
+
+page {
+	background: #ffffff;
+}
+.ryxq {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	width: 750rpx;
+	/* height: 100%; */
+	background: #ffffff;
+
+	/* position: fixed;
+		z-index: 99;
+		margin-top: 0upx;
+		top: 0upx; */
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	overflow: auto;
+}
+.xq-list {
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	font-size: 30rpx;
+	line-height: 60rpx;
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	margin-top: 20rpx;
+	height: auto;
+	margin-bottom: 20rpx;
+}
+.items {
+	float: left;
+	overflow: hidden;
+	background: #efefef;
+	height: 50rpx;
+	line-height: 50rpx;
+	margin: 20rpx 20rpx 0rpx 20rpx;
+	padding: 5rpx 15rpx 5rpx 15rpx;
+	border-radius: 20rpx;
+}
+.xq-title {
+	padding: 20rpx;
+	border-bottom: #cccccc 2rpx solid;
+}
+
