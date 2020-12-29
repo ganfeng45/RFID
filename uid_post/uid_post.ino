@@ -29,7 +29,7 @@ ESP8266WiFiMulti WiFiMulti;
 
 /*配置WIFI信息*/
 const char* ssid = "Android...";      // wifi名
-const char* password = "sysy12275";  // wifi密码
+const char* password = "××××××××××";  // wifi密码
 
 //RFID读卡库
 #include <SPI.h>
@@ -54,7 +54,7 @@ void setup() {
   mfrc522.PCD_Init(); // Init MFRC522 card
   Serial.println("test-demo-start");
   //WiFi.mode(WIFI_STA);
-  //WiFiMulti.addAP("赶风", "cjc12275");
+  //WiFiMulti.addAP("赶风", "×××××××××××");
   u8g2.begin();
   u8g2.enableUTF8Print();   // enable UTF8 support for the Arduino print() function
   connectWifi();
